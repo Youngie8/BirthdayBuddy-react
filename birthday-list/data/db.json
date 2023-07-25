@@ -1,0 +1,22 @@
+{
+    "personDetail" : [
+        {
+            "name": "Oluwole-Young",
+            "date": "31st May",
+            "age": 21,
+            "id" : 1
+        },
+        {
+            "name": "Dayo Owens",
+            "date": "25th May",
+            "age": 25,
+            "id": 2
+        },
+        {
+            "name": "Maxwell Owens",
+            "date": "25th July",
+            "age": 62,
+            "id" : 3
+        }
+    ]
+}
