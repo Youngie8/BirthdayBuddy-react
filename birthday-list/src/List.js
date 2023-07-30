@@ -1,4 +1,5 @@
 import useFetch  from './usefetch';
+import { Link } from 'react-router-dom'
 
 const List = () => {
     const listCont = {
@@ -17,7 +18,9 @@ const List = () => {
                     <p>Age : { person.age }</p>
                 </div>
             ))}
-            <button className="Add-button">Add</button>
+            <Link to="/create">
+                <button className="Add-button">Add</button>
+            </Link>
         </div>
     </div>)}
     </div>

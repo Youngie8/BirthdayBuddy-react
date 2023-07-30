@@ -1,22 +1,46 @@
 {
-    "personDetail" : [
-        {
-            "name": "Oluwole-Young",
-            "date": "31st May",
-            "age": 21,
-            "id" : 1
-        },
-        {
-            "name": "Dayo Owens",
-            "date": "25th May",
-            "age": 25,
-            "id": 2
-        },
-        {
-            "name": "Maxwell Owens",
-            "date": "25th July",
-            "age": 62,
-            "id" : 3
-        }
-    ]
+  "personDetail": [
+    {
+      "name": "Oluwole-Young",
+      "birthday": "31st May",
+      "age": 21,
+      "id": 1
+    },
+    {
+      "name": "Dayo Owens",
+      "birthday": "25th May",
+      "age": 25,
+      "id": 2
+    },
+    {
+      "name": "Maxwell Owens",
+      "birthday": "25th July",
+      "age": 62,
+      "id": 3
+    },
+    {
+      "name": "youggg",
+      "birthday": "2023-01-10",
+      "age": "0",
+      "id": 4
+    },
+    {
+      "name": "youggg",
+      "birthday": "2023-01-10",
+      "age": "0",
+      "id": 5
+    },
+    {
+      "name": "wtahe",
+      "birthday": "2023-07-05",
+      "age": "11",
+      "id": 6
+    },
+    {
+      "name": "",
+      "birthday": "",
+      "age": "",
+      "id": 7
+    }
+  ]
 }
