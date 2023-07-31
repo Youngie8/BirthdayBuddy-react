@@ -3,9 +3,13 @@ import { Link } from 'react-router-dom'
 
 const List = () => {
     const listCont = {
-        title : "My Friends' Birthdays"
+        title : "My Friends' List"
     }
     const {data:personDetail, error} = useFetch('http://localhost:8000/personDetail');
+
+    const handleDelete = () => {
+        console.log('please delete')
+    }
   return (
     <div>
         {error && <div>{ error }</div>}
@@ -16,6 +20,7 @@ const List = () => {
                 <div className="person" key={person.id}>
                     <h5>{person.name}</h5>
                     <p>Age : { person.age }</p>
+                    <button onClick={handleDelete}> Delete </button>
                 </div>
             ))}
             <Link to="/create">

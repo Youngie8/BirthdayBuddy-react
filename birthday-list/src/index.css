@@ -53,8 +53,14 @@ body{
   border-radius: 15px; 
   color: #ddd;
 }
-.person:hover {
-  color: rgb(150, 145, 145)
+.person button {
+  margin-bottom: 5px;
+  border: none;
+  color: rgb(0, 128, 128);
+  padding: 5px 8px;
+}
+.person button:hover{
+  color: rgb(120, 15, 15)
 }
 .create{
   max-width: 400px;
